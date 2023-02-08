@@ -43,6 +43,14 @@ Here are the available properties:
 }
 ```
 
+
+There are also functions that can be used for things like colour:
+
+* ```rgb(R,G,B)``` Creates a Color3 from an RGB value
+* ```hsv(H,S,V)``` Creates a Color3 from an HSV value
+* ```udim(POS, OFFSET)``` Creates a UDIM
+* ```udim2(XPOS, XOFFSET, YPOS, YOFFSET)``` Creates a udim2
+
 ## Notes
 
 MAKE SURE TO ADD SEMICOLONS TO THE END OF EVERY LINE ELSE IT WILL NOT PARSE CORRECTLY
